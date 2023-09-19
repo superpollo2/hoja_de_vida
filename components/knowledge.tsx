@@ -17,7 +17,7 @@ const Knowledge = ({ icon, knowledge, description, alt }: KnowledgeProps) => {
             </div>
 
         </section>
-
+    
 
     );
 };
