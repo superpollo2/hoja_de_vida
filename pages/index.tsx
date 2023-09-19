@@ -1,14 +1,18 @@
-import {RectanguloConBordesRedondeados} from '@/components/barpercent'
+import { BarOfPercentage } from '@/components/barpercentage'
 import { Knowledge } from '@/components/knowledge';
+import { ExtraSkills } from '@/components/extraskills';
 
 const Index = () => {
   return (
-    <div className='flex flex-col w-full items-center'>
-      <span>holi</span>
-      <img src="../public/coding.svg" alt="oh nooo" />
-      <RectanguloConBordesRedondeados text={'Bobo'} porcentaje={'30'} p={60}/>
-      <Knowledge icon={'/coding.svg'} knowledge={"Web Development"} description={"Blog, E-Commerce"} alt={"texto alternativo"}/>
-    </div>
+    <section>
+      <div className='flex flex-col w-full items-center'>
+        <span>holi</span>
+        <BarOfPercentage text={'Bobo'} percentageKnow={'30'} percentage={30} />
+        <Knowledge icon={'/coding.svg'} knowledge={"Web Development"} description={"Blog, E-Commerce"} alt={"texto alternativo"} />
+        <ExtraSkills text={"holi"} />
+      </div>
+    </section>
+
   );
 };
 
