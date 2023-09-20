@@ -2,34 +2,86 @@ import { BarOfPercentage } from "@/components/barpercentage";
 import { Knowledge } from "@/components/knowledge";
 import { ExtraSkills } from "@/components/extraskills";
 import { EducactionCard } from "@/components/education";
+import { Briefcase } from "@/components/briefcase";
 import { getKnowledges } from "../services/getKnowledges";
+import { getEducations } from "@/services/getEducations";
+import { getPercentLenguage } from "@/services/getPercentageLenguage";
+import { getPercentProgramming } from "@/services/getPercentProgramming";
+import { getExtraSkills } from "@/services/getExtraSkills";
+import { SeparatorLine } from "@/components/separatorline";
+import Image from 'next/image';
+
 const Index = () => {
   const knowledges = getKnowledges();
+  const educations = getEducations();
+  const PercentageLenguage = getPercentLenguage();
+  const PercentageProgramming = getPercentProgramming();
+  const extraSkills = getExtraSkills();
+
   return (
-    <section>
-      <div className="flex flex-col w-full items-center">
-        <span>holi</span>
-        <BarOfPercentage text={"Bobo"} percentageKnow={"30"} percentage={60} />
-        {/* <Knowledge icon={'/coding.svg'} knowledge={"soplar bombas"} description={"Blog, E-Commerce"} alt={"texto alternativo"} /> */}
-        {knowledges.map((knowledge) => (
-          <Knowledge
-            icon={knowledge.icon}
-            knowledge={knowledge.knowledge}
-            description={knowledge.description}
-            alt={knowledge.alt}
-          />
-        ))}
-        <ExtraSkills text={"holi"} />
-        <EducactionCard
-          institute="University of toronto"
-          date="jan 2016 - Dic 2021"
-          information="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus
-        nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed
-        amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et
-        pellentesque. Molestie risus enim neque eget dui."
-        />
-      </div>
+    <section className="flex w-full items-center justify-center">
+      <section className="flex h-[100%] w-[80%]">
+
+        <section className="bg-red-300 w-[20%] flex flex-col">
+          <section className="flex flex-col items-center">
+            <div className="p-6">
+              <Image src="/images/perfil.jpg" alt="Fotografía de la desarrolladora full stack Laura Tascón" width={200} height={334} className="rounded-full"/>
+            </div>
+            <div>
+              <h3 className="text-c"> Laura Tascón</h3>
+              <span className="text-b">Full stack developer</span>
+            </div>
+          </section>
+
+          <section></section>
+
+          <section className="p-3">
+            <h3 className="text-c p-2">Languages</h3>
+            {
+              PercentageLenguage.map((percentage) => (
+                <>
+                  <BarOfPercentage text={percentage.text} percentage={percentage.percentage} />
+                </>
+              ))
+            }
+            <SeparatorLine widthLine={"15%"} />
+          </section>
+          <section className="p-3">
+            <h3 className="text-c p-2">Languages</h3>
+            {
+              PercentageProgramming.map((percentage) => (
+                <>
+                  <BarOfPercentage text={percentage.text} percentage={percentage.percentage} />
+                </>
+              ))
+            }
+            <SeparatorLine widthLine={"15%"} />
+          </section>
+          <section className="p-3">
+            {
+              extraSkills.map((skill) => (
+                <>
+                  <ExtraSkills text={skill.text} />
+                </>
+              ))
+            }
+            <SeparatorLine widthLine={"15%"} />
+
+          </section>
+        </section>
+
+        <section className="bg-red-400 w-[70%]">
+          <p>jsdashdja</p>
+        </section>
+
+        <section className="bg-red-500 w-[10%]">
+          <p>dwqdewqd</p>
+        </section>
+
+      </section>
+
     </section>
+
   );
 };
 
