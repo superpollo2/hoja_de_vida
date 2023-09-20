@@ -3,12 +3,11 @@
 @tailwind utilities;
 
 .text-b {
-  font-family: 'Inter', sans-serif;
-  @apply text-base font-normal tracking-normal capitalize text-gray-400; 
+  @apply text-base font-normal  capitalize text-silver font-inter; 
 
 }
 
 .text-c {
-  font-family: 'Inter', sans-serif;
-  @apply text-xl font-medium;
+  @apply text-xl font-medium text-back_panter capitalize font-inter;
 }
+
