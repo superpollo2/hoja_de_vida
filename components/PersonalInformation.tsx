@@ -15,11 +15,11 @@ function PersonalInformation() {
                 </div>
             </section>
             <SeparatorLine widthLine={"15%"} />
-            <section>
-                <div><span>Age: </span><span>27</span></div>
-                <div><span>Residence: </span><span>BD</span></div>
-                <div><span>Freelance: </span><span>Available</span></div>
-                <div><span>Address: </span><span>Carrera 66 #101-36</span></div>
+            <section className='py-[1.5rem]'>
+                <div className='flex justify-between'><span>Age: </span><span>27</span></div>
+                <div className='flex justify-between'><span>Residence: </span><span>BD</span></div>
+                <div className='flex justify-between'><span>Freelance: </span><span>Available</span></div>
+                <div className='flex justify-between'><span>Address: </span><span>Carrera 66 #101-36</span></div>
             </section>
         </div>
     )
