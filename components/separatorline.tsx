@@ -6,7 +6,10 @@ const SeparatorLine = ({  widthLine }: separatorLineProps) => {
     const width = `${widthLine}%`;
     //const backgroundColor = `${color}%`;
     return (
-        <div style={{ width}} className="h-0.5 bg-[#F0F0F6] mt-4"/>
+        
+       <section className="flex justify-center">
+         <div style={{width}} className="h-0.5 bg-[#F0F0F6]"/>
+       </section>
         
 
 

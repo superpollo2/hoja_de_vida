@@ -6,7 +6,7 @@ interface percentageProps {
 const BarOfPercentage = ({ text, percentage }: percentageProps) => {
     const width = `${percentage}%`;
     return (
-        <section className="p-2">
+        <section className="p-1">
             <section className='flex space-x-6  ' >
                 <p className="text-secondary flex-1">{text}</p>
                 <p className="text-secondary flex-1 text-right">{percentage} %</p>

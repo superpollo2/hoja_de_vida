@@ -9,9 +9,7 @@ export const getExtraSkills = () => (
         {
             text: "Gulp, Webpack, Grunt"
         },
-        {
-            text: "GIT Knowledge"
-        },
+       
         
         
     ]

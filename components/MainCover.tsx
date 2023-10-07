@@ -3,7 +3,7 @@ import React from 'react'
 import { AiOutlineArrowRight } from 'react-icons/ai'
 function MainCover() {
   return (
-    <section className='relative p-[8%]  bg-slate-50 w-[100%] h-[30%] '>
+    <section className='relative p-[8%]  bg-slate-50 w-[100%] h-[40%]'>
       <div className='w-[60%]'>
         <div className='text-title pb-[4%]'>
           <h1 >I'm Laura Tascon</h1>

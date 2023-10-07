@@ -13,9 +13,9 @@ function Skills() {
     return (
         <div>
             <BarList barList={percentageLanguage} title="Languages" />
-            <SeparatorLine widthLine={"15%"} />
+            <SeparatorLine widthLine={"90"} />
             <BarList barList={percentageProgramming} title="Languages" />
-            <SeparatorLine widthLine={"15%"} />
+            <SeparatorLine widthLine={"90"} />
             <section className="p-3">
                 {
                     extraSkills.map((skill) => (

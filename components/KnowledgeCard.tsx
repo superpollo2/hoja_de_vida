@@ -5,7 +5,7 @@ interface KnowledgeProps {
     description: string;
 
 }
-const Knowledge = ({ icon, knowledge, description, alt }: KnowledgeProps) => {
+const KnowledgeCard = ({ icon, knowledge, description, alt }: KnowledgeProps) => {
     return (
         <section className="h-56 w-80 bg-zinc-50 flex items-center justify-center flex-col gap-4"  >
             <div>
@@ -22,4 +22,4 @@ const Knowledge = ({ icon, knowledge, description, alt }: KnowledgeProps) => {
     );
 };
 
-export { Knowledge };
+export { KnowledgeCard };

@@ -8,9 +8,9 @@ interface briefcaseProps {
     link: string,
     alt: string,
 }
-const Briefcase = ({ title, description, image, alt, link }: briefcaseProps) => {
+const BriefcaseCard = ({ title, description, image, alt, link }: briefcaseProps) => {
     return (
-        <section className="flex flex-col space-y-2  w-[18%] bg-slate-100">
+        <section className="flex flex-col space-y-2  w-[25%] bg-slate-100 pb-8 mb-8">
             <div className="pb-4">
                 <img src={image} alt={alt} />
             </div>
@@ -27,4 +27,4 @@ const Briefcase = ({ title, description, image, alt, link }: briefcaseProps) => 
     );
 };
 
-export { Briefcase }
+export { BriefcaseCard }

@@ -7,6 +7,10 @@
   @apply text-4xl font-bold text-back_panter capitalize font-inter;
 }
 
+.text-subtitle {
+  @apply text-2xl font-bold text-back_panter capitalize font-inter;
+}
+
 .text-primary-bold {
   @apply text-xl font-bold text-back_panter capitalize font-inter;
 }
