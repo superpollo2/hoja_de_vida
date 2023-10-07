@@ -19,7 +19,7 @@ const EducactionCard = ({
           </span>
         </div>
       </div>
-      <div className="w-[65%]">
+      <div className="w-[60%]">
         <h3 className="text-primary">Certificate of web training</h3>
         <p className="py-6 text-left ">{information}</p>
       </div>
