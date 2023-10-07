@@ -12,8 +12,8 @@ const Knowledge = ({ icon, knowledge, description, alt }: KnowledgeProps) => {
                 <img src={icon} alt={alt}  className="max-h-full max-w-full" />
             </div>
             <div className="text-center mt-4">
-                <h3 className="text-c ">{knowledge}</h3>
-                <p className="mt-2 text-b">{description}</p>
+                <h3 className="text-primary ">{knowledge}</h3>
+                <p className="mt-2 text-secondary">{description}</p>
             </div>
 
         </section>

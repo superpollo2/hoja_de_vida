@@ -3,18 +3,18 @@ import BarList from './BarList'
 import { getExtraSkills } from '@/services/getExtraSkills';
 import { getPercentProgramming } from '@/services/getPercentProgramming';
 import { getPercentLenguage } from '@/services/getPercentageLenguage';
-import { SeparatorLine } from './separatorline';
-import { ExtraSkills } from './extraskills';
+import { SeparatorLine } from './Separatorline';
+import { ExtraSkills } from './extraskills'
 
 function Skills() {
-    const PercentageLanguage = getPercentLenguage();
-    const PercentageProgramming = getPercentProgramming();
+    const percentageLanguage = getPercentLenguage();
+    const percentageProgramming = getPercentProgramming();
     const extraSkills = getExtraSkills();
     return (
         <div>
-            <BarList barList={PercentageLanguage} title="Languages" />
+            <BarList barList={percentageLanguage} title="Languages" />
             <SeparatorLine widthLine={"15%"} />
-            <BarList barList={PercentageProgramming} title="Languages" />
+            <BarList barList={percentageProgramming} title="Languages" />
             <SeparatorLine widthLine={"15%"} />
             <section className="p-3">
                 {

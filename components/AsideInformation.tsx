@@ -1,11 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import BarList from './BarList'
-import { SeparatorLine } from './separatorline'
-import { getExtraSkills } from '@/services/getExtraSkills';
-import { getPercentProgramming } from '@/services/getPercentProgramming';
-import { getPercentLenguage } from '@/services/getPercentageLenguage';
-import { ExtraSkills } from './extraskills';
+import { SeparatorLine } from './Separatorline'
 import PersonalInformation from './PersonalInformation';
 import Skills from './Skills';
 

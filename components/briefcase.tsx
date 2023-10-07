@@ -15,8 +15,8 @@ const Briefcase = ({ title, description, image, alt, link }: briefcaseProps) => 
                 <img src={image} alt={alt} />
             </div>
             <div className="text-left flex flex-col items-center px-[1rem]  space-y-3">
-                <h3 className="text-c">{title}</h3>
-                <p className="text-b">{description}</p>
+                <h3 className="text-primary">{title}</h3>
+                <p className="text-secondary">{description}</p>
             </div>
             <div className="flex items-center px-[1rem] space-x-3">
                 <div className="text-amber-300 font-bold text-lg  "><a href={link}>Learn More </a></div>
