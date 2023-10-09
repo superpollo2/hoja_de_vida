@@ -5,7 +5,7 @@ interface ExtraSkillsProps {
 
 }
 
-const ExtraSkills = ({  text }: ExtraSkillsProps) => {
+function ExtraSkills  ({  text }: ExtraSkillsProps)  {
     return (
         <section className="flex space-x-6 p-2">
             <div className="relative ">

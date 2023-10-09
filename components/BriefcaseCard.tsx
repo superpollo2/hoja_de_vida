@@ -9,7 +9,7 @@ interface briefcaseProps {
     link: string,
     alt: string,
 }
-const BriefcaseCard = ({ title, description, image, alt, link }: briefcaseProps) => {
+function BriefcaseCard ({ title, description, image, alt, link }: briefcaseProps)  {
     return (
         <section className="flex flex-col space-y-2  w-[25%] bg-white  shadow-lg pb-8 mb-8">
             <picture className="pb-4"> 

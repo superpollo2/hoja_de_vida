@@ -54,26 +54,23 @@
 
 }
 
-tool-tip {
+.tool-tip {
   
-
   @apply 
   flex flex-col items-center justify-center
 
   absolute z-[1] pointer-events-none select-none 
   p-3 bg-white bg-opacity-75 shadow-md h-fit
 
-  text-lg font-bold text-back_panter font-inter
+  text-lg font-bold rounded-lg text-back_panter font-inter
 
-   top-[80%] left-[25%] opacity-0 transition-opacity duration-300 ease-in-out;
+  top-[80%] left-[25%] opacity-0 transition-opacity duration-300 ease-in-out;
 
 }
 
-:has(> tool-tip) {
-  @apply relative;
-}
 
-:has(> tool-tip):hover tool-tip {
+
+:has(> .tool-tip):hover .tool-tip {
  @apply opacity-100;
 }
 

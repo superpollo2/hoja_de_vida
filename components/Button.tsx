@@ -9,7 +9,7 @@ import '@mui/material';
 
 
 
-const MyButton = () => {
+function MyButton ()  {
     const [open, setOpen] = useState(false);
 
     const handleClickOpen = () => {

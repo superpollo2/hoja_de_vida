@@ -3,11 +3,12 @@ interface EducationCardProps {
   date: string;
   information: string;
 }
-const EducactionCard = ({
+
+function EducactionCard ({
   institute,
   date,
   information,
-}: EducationCardProps) => {
+}: EducationCardProps)  {
   return (
     <article className="flex space-x-[10%] w-full pb-4 pt-11 px-10 bg-white">
       <div>

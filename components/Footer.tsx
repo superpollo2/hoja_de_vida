@@ -1,6 +1,6 @@
 import { FiMail} from "react-icons/fi"; 
 
-const Footer =() =>{
+function Footer () {
     return(
         <section className="w-full mt-[2%] shadow-md">
             <div className="flex flex-col items-center text-primary justify-center bg-indigo-100 h-[80px] ">

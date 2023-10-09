@@ -2,7 +2,7 @@ interface separatorLineProps {
     widthLine: string,
 }
 
-const SeparatorLine = ({  widthLine }: separatorLineProps) => {
+function SeparatorLine ({  widthLine }: separatorLineProps)  {
     const width = `${widthLine}%`;
     //const backgroundColor = `${color}%`;
     return (

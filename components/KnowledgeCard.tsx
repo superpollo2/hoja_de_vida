@@ -7,7 +7,7 @@ interface KnowledgeProps {
     description: string;
 
 }
-const KnowledgeCard = ({ icon, knowledge, description, alt }: KnowledgeProps) => {
+function KnowledgeCard  ({ icon, knowledge, description, alt }: KnowledgeProps) {
     return (
         <section className="h-56 w-80 bg-white shadow-md flex items-center justify-center flex-col gap-4"  >
             <picture>

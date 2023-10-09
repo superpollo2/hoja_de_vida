@@ -3,7 +3,7 @@ interface percentageProps {
     percentage: number;
 
 }
-const BarOfPercentage = ({ text, percentage }: percentageProps) => {
+function BarOfPercentage ({ text, percentage }: percentageProps)  {
     const width = `${percentage}%`;
     return (
         <section className="p-1">

@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import { MyButton } from './Button'
 
+
 function MainCover() {
   return (
     <section className='relative p-[8%] bg-white w-[100%] h-[40%] shadow-md'>
@@ -12,17 +13,19 @@ function MainCover() {
         </div>
         <p className='text-secondary'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, culpa voluptates quod eaque, suscipit deserunt inventore et commodi fugiat facilis, minus molestias
           blanditiis nisi expedita. Animi enim quis et nisi.
-        </p>  
+        </p>
         <MyButton />
       </div>
       <picture className='absolute w-[37%] bottom-0 left-[60%] ' >
         <Image src="/images/perfil-removebg-preview.png" alt="Fotografía de la desarrolladora full stack Laura Tascón" width={600} height={634} className='block w-[100%]' />
-        <tool-tip role="tooltip">
-          <div className='heart'></div> <p>Me gusta el cine </p>
-        </tool-tip>
+        <div className='tool-tip' role="tooltip" >
+          <div className='heart'></div> <p>I love Programming </p>
+        </div>
       </picture>
+
     </section>
   )
 }
 
-export { MainCover}
+
+export { MainCover }
