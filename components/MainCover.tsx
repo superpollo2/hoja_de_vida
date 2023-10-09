@@ -4,7 +4,7 @@ import { MyButton } from './Button'
 
 function MainCover() {
   return (
-    <section className='relative p-[8%] bg-white w-[100%] h-[40%]'>
+    <section className='relative p-[8%] bg-white w-[100%] h-[40%] shadow-md'>
       <div className='w-[60%]'>
         <div className='text-title pb-[4%]'>
           <h1 >I&apos;m Laura Tascon</h1>
