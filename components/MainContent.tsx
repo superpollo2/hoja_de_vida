@@ -3,15 +3,24 @@ import MainCover from './MainCover'
 import { MainKnowledge } from './MainKnowledge'
 import { MainEducations } from './MainEducation'
 import { Mainbriefcases } from './MaindBiefcase'
+import { Footer } from './Footer'
 
 function MainInformation() {
   return (
-    <div className="bg-red-400 w-[70%] px-[2rem]  max-h-screen overflow-y-auto">
+    <section className="bg-slate-50  w-[70%] max-h-screen overflow-y-auto">
+      <div className='w-full px-[2rem]'>
         <MainCover/>
         <MainKnowledge/>
         <MainEducations/>
         <Mainbriefcases/>
+        
     </div>
+      <div className='w-full'>
+        <Footer/>
+      </div>
+    </section>
+    
+    
   )
 }
 

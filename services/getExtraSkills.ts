@@ -1,13 +1,13 @@
 export const getExtraSkills = () => (
     [
         {
-            text: "Bootstrap, Materialize"
+            text: "Django, Fast API"
         },
         {
-            text: "Stylus, Sass, Less"
+            text: "Linux, Ansible, Docker"
         },
         {
-            text: "Gulp, Webpack, Grunt"
+            text: "Scrum, Figma, DevOps"
         },
        
         

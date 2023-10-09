@@ -9,7 +9,7 @@ const EducactionCard = ({
   information,
 }: EducationCardProps) => {
   return (
-    <article className="flex space-x-[10%] w-full pb-4 pt-11 px-10 bg-zinc-50">
+    <article className="flex space-x-[10%] w-full pb-4 pt-11 px-10 bg-white">
       <div>
         <h3 className="text-primary">{institute}</h3>
         <div className="flex items-center py-6">

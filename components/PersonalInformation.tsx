@@ -4,23 +4,24 @@ import { SeparatorLine } from './Separatorline';
 
 
 
+
 function PersonalInformation() {
     return (
         <div>
             <section className="flex flex-col items-center ">
-                <div className="p-1">
+                <picture className="pb-2">
                     <Image src="/images/perfil.jpg" alt="Fotografía de la desarrolladora full stack Laura Tascón" width={200} height={334} className="rounded-full" />
-                </div>
-                <div className="flex flex-col items-center">
-                    <h3 className="text-primary"> Laura Tascón</h3>
-                    <span className="text-secondary">Full stack developer</span>
+                </picture>
+                <div className="flex flex-col items-center py-1">
+                    <h3 className="text-primary-bold"> Laura Tascón</h3>
+                    <span className="text-primary">Full stack developer</span>
                 </div>
             </section>
             <SeparatorLine widthLine={"90"} />
             <section className='py-[1.5rem] text-secondary '>
                 <div className='flex justify-between text-'><span>Age: </span><span>27</span></div>
-                <div className='flex justify-between'><span>Residence: </span><span>BD</span></div>
-                <div className='flex justify-between'><span>Freelance: </span><span>Available</span></div>
+                <div className='flex justify-between'><span>Residence: </span><span>Medellín-Colombia</span></div>
+                <div className='flex justify-between'><span>Phone: </span><span>(+57) 310 356 45 26</span></div>
                 <div className='flex justify-between'><span>Address: </span><span>Carrera 66 #101-36</span></div>
             </section>
         </div>

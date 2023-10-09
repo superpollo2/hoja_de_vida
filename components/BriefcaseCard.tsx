@@ -10,7 +10,7 @@ interface briefcaseProps {
 }
 const BriefcaseCard = ({ title, description, image, alt, link }: briefcaseProps) => {
     return (
-        <section className="flex flex-col space-y-2  w-[25%] bg-slate-100 pb-8 mb-8">
+        <section className="flex flex-col space-y-2  w-[25%] bg-white  shadow-lg pb-8 mb-8">
             <div className="pb-4">
                 <img src={image} alt={alt} />
             </div>

@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .text-title {
   @apply text-4xl font-bold text-back_panter capitalize font-inter;
 }
@@ -16,11 +15,110 @@
 }
 
 .text-secondary {
-  @apply text-base font-normal  capitalize text-silver font-inter; 
-
+  @apply text-base font-normal  capitalize text-silver font-inter;
 }
 
 .text-primary {
   @apply text-xl font-medium text-back_panter capitalize font-inter;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 rounded-md;
+/* Bordes redondeados del pulgar */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-slate-400;
+}
+
+@keyframes square-in-center {
+  from {
+    clip-path: inset(100% 100% 100% 100%);
+  }
+  to {
+    clip-path: inset(10% 20% 50% 20%);
+  }
+}
+
+.custom-dialog {
+  animation: 2.5s cubic-bezier(0.25, 1, 0.3, 1) square-in-center both;
+
+}
+
+.custom-dialog .MuiDialog-paper {
+  @apply  h-fit top-[18%] absolute rounded-xl;
+
+}
+
+tool-tip {
+  
+
+  @apply 
+  flex flex-col items-center justify-center
+
+  absolute z-[1] pointer-events-none select-none 
+  p-3 bg-white bg-opacity-75 shadow-md h-fit
+
+  text-lg font-bold text-back_panter font-inter
+
+   top-[80%] left-[25%] opacity-0 transition-opacity duration-300 ease-in-out;
+
+}
+
+:has(> tool-tip) {
+  @apply relative;
+}
+
+:has(> tool-tip):hover tool-tip {
+ @apply opacity-100;
+}
+
+
+/* Estilos básicos del botón */
+.button {
+  @apply  bg-amber-300 cursor-pointer text-white; 
+  transition: background-color 0.3s ease;
+}
+
+/* Estilo cuando se pasa el mouse sobre el botón */
+.button:hover {
+  @apply bg-purple-300;
+}
+
+/* Estilo cuando se presiona el botón */
+.button:active {
+  background-color: #788ce9;
+}
+
+.heart{
+  @apply bg-pink-400 h-[15px] w-[15px] rounded; 
+  transform:rotate(-45deg);
+  animation: pulse 1s infinite;
+}
+
+.heart::before,
+.heart::after{
+  @apply bg-pink-400 absolute h-[15px] w-[15px] rounded-[50%];
+  content: " ";
+
+}
+.heart::before{
+  @apply top-[-8px];
+  
+}
+
+.heart::after{
+  @apply left-[8px];
+}
+
+@keyframes pulse{
+  75%{
+    transform: 
+    rotate(-45deg)
+    scale(1.1);
+  }
+}

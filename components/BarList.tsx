@@ -11,7 +11,7 @@ type props = {
 }
 function BarList({barList, title}: props) {
   return (
-    <section className="p-3">
+    <section className="p-[5%]">
         <h3 className="text-primary p-2">{title}</h3>
         {
             barList.map((percentage) => (

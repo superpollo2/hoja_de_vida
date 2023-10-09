@@ -9,7 +9,7 @@ function AsideInformation() {
 
     return (
         
-        <aside className="bg-red-300 w-[20%] flex flex-col p-[2rem]   ">
+        <aside className="bg-indigo-100 shadow-lg w-[20%] flex flex-col p-[2rem]   ">
             <PersonalInformation/>
             <SeparatorLine widthLine={"90"} />
             <Skills/>

@@ -14,7 +14,7 @@ function Skills() {
         <div>
             <BarList barList={percentageLanguage} title="Languages" />
             <SeparatorLine widthLine={"90"} />
-            <BarList barList={percentageProgramming} title="Languages" />
+            <BarList barList={percentageProgramming} title="Programming languages" />
             <SeparatorLine widthLine={"90"} />
             <section className="p-3">
                 {

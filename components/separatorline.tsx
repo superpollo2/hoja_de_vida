@@ -8,7 +8,7 @@ const SeparatorLine = ({  widthLine }: separatorLineProps) => {
     return (
         
        <section className="flex justify-center">
-         <div style={{width}} className="h-0.5 bg-[#F0F0F6]"/>
+         <div style={{width}} className="h-0.5 bg-[#aaaaaa]"/>
        </section>
         
 

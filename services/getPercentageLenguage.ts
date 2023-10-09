@@ -7,8 +7,8 @@ export const getPercentLenguage= () => (
             percentage: 50
         },
         {
-            text: "Espanish",
-            percentage: 80
+            text: "Spanish",
+            percentage: 100
         },
       
     ]

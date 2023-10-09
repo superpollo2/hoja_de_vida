@@ -17,7 +17,8 @@ const config: Config = {
         // Agregar tus propios colores aquí
         yellow_egg: '#FFB400', // Ejemplo de color personalizado
         back_panter: '#2B2B2B',
-        silver: '#767676' // Otro ejemplo de color personalizado
+        silver: '#767676',
+        hueso: '#dfd2d2' // Otro ejemplo de color personalizado
       },
       fontFamily: {
         // Agregar tus propias fuentes aquí
