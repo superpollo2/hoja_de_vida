@@ -1,6 +1,6 @@
 import React from 'react'
 
-import PersonalInformation from './PersonalInformation';
+import {PersonalInformation} from './PersonalInformation';
 import Skills from './Skills';
 import { SeparatorLine } from './Separatorline';
 
@@ -16,4 +16,4 @@ function AsideInformation() {
     )
 }
 
-export default AsideInformation
+export  { AsideInformation }

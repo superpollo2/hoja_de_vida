@@ -1,11 +1,11 @@
 import React from 'react'
-import MainCover from './MainCover'
+import {MainCover} from './MainCover'
 import { MainKnowledge } from './MainKnowledge'
 import { MainEducations } from './MainEducation'
 import { Mainbriefcases } from './MaindBiefcase'
 import { Footer } from './Footer'
 
-function MainInformation() {
+function MainContent() {
   return (
     <section className="bg-slate-50  w-[70%] max-h-screen overflow-y-auto">
       <div className='w-full px-[2rem]'>
@@ -24,4 +24,4 @@ function MainInformation() {
   )
 }
 
-export default MainInformation
+export {MainContent}

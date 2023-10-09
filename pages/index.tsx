@@ -1,6 +1,6 @@
-import AsideInformation from "@/components/AsideInformation";
+import {AsideInformation} from "@/components/AsideInformation";
 import { AsideSocialMedia } from "@/components/AsideSocialMedia";
-import MainInformation from "@/components/MainContent";
+import {MainContent} from "@/components/MainContent";
 
 const Index = () => {
 
@@ -8,7 +8,7 @@ const Index = () => {
     <section className="flex w-full items-center justify-center overflow-y-hidden">
       <section className="flex max-h-screen w-[80%]">
         <AsideInformation  />
-        <MainInformation />
+        <MainContent />
         <AsideSocialMedia />
         
 

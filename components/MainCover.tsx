@@ -7,7 +7,7 @@ function MainCover() {
     <section className='relative p-[8%] bg-white w-[100%] h-[40%]'>
       <div className='w-[60%]'>
         <div className='text-title pb-[4%]'>
-          <h1 >I'm Laura Tascon</h1>
+          <h1 >I&apos;m Laura Tascon</h1>
           <h2><span className='text-purple-300'>Full-Stack</span> Developer</h2>
         </div>
         <p className='text-secondary'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, culpa voluptates quod eaque, suscipit deserunt inventore et commodi fugiat facilis, minus molestias
@@ -25,4 +25,4 @@ function MainCover() {
   )
 }
 
-export default MainCover
+export { MainCover}
