@@ -1,8 +1,8 @@
 import React from 'react'
 
 import {PersonalInformation} from './PersonalInformation';
-import Skills from './Skills';
-import { SeparatorLine } from './Separatorline';
+import {Skills} from './Skills';
+import { SeparatorLine } from './SeparatorLine';
 
 function AsideInformation() {
 
