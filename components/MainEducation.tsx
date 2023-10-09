@@ -19,7 +19,7 @@ function MainEducations() {
 
                     educations.map((education, index) => (
                         <>
-                            <EducactionCard institute={education.institute} date={education.date} information={education.information} />
+                            <EducactionCard key={education.id} institute={education.institute} date={education.date} information={education.information} />
                             {index !== educations.length - 1 && <SeparatorLine widthLine={"80"} />}
                         </>
                     ))

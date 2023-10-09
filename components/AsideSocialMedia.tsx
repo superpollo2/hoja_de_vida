@@ -10,7 +10,7 @@ function AsideSocialMedia() {
                 <h3 className="text-primary-bold mt-[50%]">Links</h3>
                 {
                     socialMediaIcons.map((icon) => (
-                        <IconSocialMedia iconName={icon.iconName} link={icon.link} relIcon={icon.relIcon} />
+                        <IconSocialMedia key={icon.id} iconName={icon.iconName} link={icon.link} relIcon={icon.relIcon} />
                     ))
                 }
             </aside>

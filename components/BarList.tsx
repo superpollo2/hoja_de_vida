@@ -1,5 +1,5 @@
 import React from 'react'
-import { BarOfPercentage } from './Barpercentage'
+import { BarOfPercentage } from './BarOfPercentage'
 
 type props = {
     barList: {
@@ -15,7 +15,7 @@ function BarList({barList, title}: props) {
         <h3 className="text-primary p-2">{title}</h3>
         {
             barList.map((percentage) => (
-                <BarOfPercentage text={percentage.text} percentage={percentage.percentage} />
+                <BarOfPercentage  text={percentage.text} percentage={percentage.percentage} />
             ))
         }
     </section>

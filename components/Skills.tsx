@@ -20,7 +20,7 @@ function Skills() {
                 {
                     extraSkills.map((skill) => (
                         <>
-                            <ExtraSkills text={skill.text} />
+                            <ExtraSkills key={skill.id} text={skill.text} />
                         </>
                     ))
                 }

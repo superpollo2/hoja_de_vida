@@ -18,7 +18,7 @@ function Mainbriefcases() {
 
                     briefcases.map((briefcase) => (
                         
-                            <BriefcaseCard title={briefcase.title} description={briefcase.description} image={briefcase.image} link={briefcase.link} alt={briefcase.link} />
+                            <BriefcaseCard key={briefcase.id} title={briefcase.title} description={briefcase.description} image={briefcase.image} link={briefcase.link} alt={briefcase.link} />
                         
                     ))
                 }

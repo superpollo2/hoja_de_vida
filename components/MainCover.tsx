@@ -12,8 +12,7 @@ function MainCover() {
         </div>
         <p className='text-secondary'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, culpa voluptates quod eaque, suscipit deserunt inventore et commodi fugiat facilis, minus molestias
           blanditiis nisi expedita. Animi enim quis et nisi.
-        </p>
-        
+        </p>  
         <MyButton />
       </div>
       <picture className='absolute w-[37%] bottom-0 left-[60%] ' >

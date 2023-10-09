@@ -18,7 +18,7 @@ function MainKnowledge() {
                 
                 {
                     knowledge.map((knowledge) => (
-                        <KnowledgeCard icon={knowledge.icon} knowledge={knowledge.knowledge} description={knowledge.description} alt={knowledge.alt} />
+                        <KnowledgeCard key={knowledge.id} icon={knowledge.icon} knowledge={knowledge.knowledge} description={knowledge.description} alt={knowledge.alt} />
                     ))
                     
                 }
