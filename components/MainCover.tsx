@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
-import { AiTwotoneHeart } from 'react-icons/ai';
 import { MyButton } from './Button'
+
 function MainCover() {
   return (
     <section className='relative p-[8%] bg-white w-[100%] h-[40%]'>

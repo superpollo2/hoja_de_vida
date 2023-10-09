@@ -1,4 +1,4 @@
-import { text } from "node:stream/consumers";
+
 
 interface ExtraSkillsProps {
     text: string;

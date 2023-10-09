@@ -1,5 +1,5 @@
 import React from 'react'
-import BarList from './BarList'
+import { BarList } from './BarList';
 import { getExtraSkills } from '@/services/getExtraSkills';
 import { getPercentProgramming } from '@/services/getPercentProgramming';
 import { getPercentLenguage } from '@/services/getPercentageLenguage';

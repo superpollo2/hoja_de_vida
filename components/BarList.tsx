@@ -3,6 +3,7 @@ import { BarOfPercentage } from './BarOfPercentage'
 
 type props = {
     barList: {
+        id: number,
         text: string,
         percentage: number
     }[],
@@ -15,11 +16,11 @@ function BarList({barList, title}: props) {
         <h3 className="text-primary p-2">{title}</h3>
         {
             barList.map((percentage) => (
-                <BarOfPercentage  text={percentage.text} percentage={percentage.percentage} />
+                <BarOfPercentage  key={percentage.id} text={percentage.text} percentage={percentage.percentage} />
             ))
         }
     </section>
   )
 }
 
-export default BarList
+export {BarList}
