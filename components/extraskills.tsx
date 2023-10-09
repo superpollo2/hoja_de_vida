@@ -4,6 +4,7 @@ interface ExtraSkillsProps {
     text: string;
 
 }
+
 const ExtraSkills = ({  text }: ExtraSkillsProps) => {
     return (
         <section className="flex space-x-6 p-2">
