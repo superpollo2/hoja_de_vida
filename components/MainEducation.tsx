@@ -3,7 +3,7 @@
 import { EducactionCard } from "./EducationCard";
 import { SectionInformation } from "./SectionInformation";
 import { getEducations } from "@/services/getEducations";
-import { SeparatorLine } from "./SeparatorLine";
+import { SeparatorLine } from "./holo";
 
 const educations = getEducations();
 

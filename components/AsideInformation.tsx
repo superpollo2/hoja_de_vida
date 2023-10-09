@@ -2,7 +2,7 @@ import React from 'react'
 
 import {PersonalInformation} from './PersonalInformation';
 import {Skills} from './Skills';
-import { SeparatorLine } from './SeparatorLine';
+import { SeparatorLine } from './holo';
 
 function AsideInformation() {
 
