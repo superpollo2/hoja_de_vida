@@ -17,7 +17,7 @@ function MainCover() {
       </div>
       <picture className='absolute w-[37%] bottom-0 left-[60%] ' >
         <Image src="/images/perfil-removebg-preview.png" alt="Fotografía de la desarrolladora full stack Laura Tascón" width={600} height={634} className='block w-[100%]' />
-        <tool-tip role="tooltio">
+        <tool-tip role="tooltip">
           <div className='heart'></div> <p>Me gusta el cine </p>
         </tool-tip>
       </picture>
