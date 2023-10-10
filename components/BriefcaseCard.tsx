@@ -20,6 +20,7 @@ function BriefcaseCard ({ title, description, image, alt, link }: briefcaseProps
     const handleClose = () => {
         setOpen(false);
     };
+
     return (
         <section className="flex flex-col space-y-2  w-[25%] bg-white  shadow-lg pb-8 mb-8">
             <picture className="pb-4"> 
@@ -32,7 +33,7 @@ function BriefcaseCard ({ title, description, image, alt, link }: briefcaseProps
             <div className="flex items-center px-[1rem] space-x-3">
                 <div className="text-amber-300 font-bold text-lg  "><a href="#" onClick={handleClickOpen}>Learn More </a></div>
                 <div><FcNext/></div>
-                <CustomDialog open={open} handleClose={handleClose} title={title} description={description}  />
+                <CustomDialog open={open} handleClose={handleClose} title={title} description={description} />
             </div>
         </section >
     );

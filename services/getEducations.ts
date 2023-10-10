@@ -12,7 +12,7 @@ export const getEducations = () => (
         },
         {
             id: 2,
-            title: "Systems enginee",
+            title: "Systems engineer",
             institute :"University of Antioquia" ,
             date: "jun 2017 - 2023" ,
             information: "Systems engineering technology applies scientific principles to design, develop, and manage intricate systems. This interdisciplinary field integrates components, optimizing system performance across hardware, software, and human factors. Engineers employ specialized tools to enhance reliability and solve complex problems. Their focus is on creating efficient, innovative solutions for real-world challenges." ,

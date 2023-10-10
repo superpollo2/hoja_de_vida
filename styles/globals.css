@@ -53,10 +53,28 @@
 
 }
 
+
+@keyframes square-out-center {
+  from {
+    clip-path: inset(5% 18% 45% 26%);
+  }
+  to {
+    clip-path: inset(100% 100% 100% 100%);
+  }
+}
+
+.custom-button{
+  animation: 2.5s cubic-bezier(.25, 1, .30, 1) square-out-center both;
+}
+
+
+
 .custom-dialog .MuiDialog-paper {
   @apply  h-fit top-[15%] left-[35%] absolute rounded-xl;
 
 }
+
+
 
 .tool-tip {
   

@@ -2,7 +2,7 @@ export const getExtraSkills = () => (
     [
         {
             id: 1,
-            text: "Django, Fast API"
+            text: "Server management "
         },
         {
             id: 2,
@@ -10,7 +10,11 @@ export const getExtraSkills = () => (
         },
         {
             id: 3,
-            text: "Scrum, Figma, DevOps"
+            text: "UI/UX, Figma "
+        },
+        {
+            id: 4,
+            text: "Illustrator, Photoshop"
         },
        
         

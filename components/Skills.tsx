@@ -16,7 +16,7 @@ function Skills() {
             <SeparatorLine widthLine={"90"} />
             <BarList barList={percentageProgramming} title="Programming languages" />
             <SeparatorLine widthLine={"90"} />
-            <section className="p-2">
+            <section className="p-4">
                 {
                     extraSkills.map((skill) => (
                         <>

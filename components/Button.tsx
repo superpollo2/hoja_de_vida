@@ -27,12 +27,10 @@ function MyButton() {
         <div>
             <button
                 className='shadow-lg button flex items-center rounded-lg text-primary py-[2%] px-[5%] mt-[6%] bg-blue-500'
-                onClick={handleClickOpen}
-
-            >
+                onClick={handleClickOpen}>
                 Hire me <AiOutlineArrowRight style={{ marginLeft: '10px' }} />
             </button>
-            <CustomDialog title='My objectives' description={dialogText} open={open} handleClose={handleClose} />
+            <CustomDialog title='My objectives' description={dialogText} open={open} handleClose={handleClose}  />
         </div>
 
 

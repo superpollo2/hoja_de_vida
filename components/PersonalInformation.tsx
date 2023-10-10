@@ -9,10 +9,10 @@ function PersonalInformation() {
     return (
         <div>
             <section className="flex flex-col items-center ">
-                <picture className="pb-2">
+                <picture className="pb-6">
                     <Image src="/images/perfil.jpg" alt="Fotografía de la desarrolladora full stack Laura Tascón" width={200} height={334} className="rounded-full" />
                 </picture>
-                <div className="flex flex-col items-center py-1">
+                <div className="flex flex-col items-center py-4">
                     <h3 className="text-primary-bold"> Laura Tascón</h3>
                     <span className="text-primary">Full stack developer</span>
                 </div>
