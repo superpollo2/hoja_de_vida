@@ -2,8 +2,8 @@ import { FiMail} from "react-icons/fi";
 
 function Footer () {
     return(
-        <section className="w-full mt-[2%] shadow-md">
-            <div className="flex flex-col items-center text-primary justify-center bg-indigo-100 h-[80px] ">
+        <section className="w-full shadow-md ">
+            <div className="flex flex-col items-center text-secondary-bold justify-center bg-indigo-100 h-[80px] ">
                 <span >&copy; Copyright 2023, SuperPolloDev. All Rights Reserved </span>
                  <span className="flex space-x-4 items-center"> <FiMail/><p>vanessatascon08@gmail.com</p></span>
             </div>

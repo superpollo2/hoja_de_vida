@@ -2,27 +2,27 @@ export const getIcons = () => (
       [
         {
             id: 1,
-            iconName: 'Facebook',
-            link: 'https://www.facebook.com/tupagina',
-            relIcon: 'enlace a tu icono de Facebook',
+            iconName: 'Github',
+            link: 'https://github.com/superpollo2',
+            relIcon: 'enlace github',
         },
         {
             id: 2,
             iconName: 'Twitter',
             link: 'https://www.twitter.com/tupagina',
-            relIcon: 'enlace a tu icono de Twitter',
+            relIcon: 'enlace a Twitter',
         },
         {
             id: 3,
             iconName: 'Instagram',
-            link: 'https://www.instagram.com/tupagina',
-            relIcon: 'enlace a tu icono de Instagram',
+            link: 'https://www.instagram.com/super.pollo2/',
+            relIcon: 'enlace a instagram',
         },
         {
             id: 4,
             iconName: 'Linkedin',
-            link: 'https://www.instagram.com/tupagina',
-            relIcon: 'enlace a tu icono de Instagram',
+            link: 'https://www.linkedin.com/in/laura-tascon/',
+            relIcon: 'enlace a linkedin',
         },
     ]
 )

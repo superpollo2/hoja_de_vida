@@ -18,7 +18,7 @@ function PersonalInformation() {
                 </div>
             </section>
             <SeparatorLine widthLine={"90"} />
-            <section className='py-[1.5rem] text-secondary '>
+            <section className='py-[1rem] text-secondary px-[1rem]'>
                 <div className='flex justify-between text-'><span>Age: </span><span>27</span></div>
                 <div className='flex justify-between'><span>Residence: </span><span>Medellín-Colombia</span></div>
                 <div className='flex justify-between'><span>Phone: </span><span>(+57) 310 356 45 26</span></div>

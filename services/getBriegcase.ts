@@ -2,10 +2,10 @@ export const getBriefcase = () => (
   [
     {
       id: 1,
-      title: "Proyecto Uno",
+      title: "Appointment EPS API",
       description: "Este es el primer proyecto de la briefcase.",
       image: "./Image.png",
-      link: "https://www.ejemplo.com/proyecto-uno",
+      link: "https://github.com/superpollo2/appointmentEPSapi",
       alt: "Imagen del Proyecto Uno"
     },
     {
@@ -23,7 +23,8 @@ export const getBriefcase = () => (
       image: "./Image.png",
       link: "https://www.ejemplo.com/proyecto-tres",
       alt: "Imagen del Proyecto Tres"
-    }
+    },
+
   ]
 
 

@@ -2,17 +2,25 @@ import Image from 'next/image'
 import React from 'react'
 import { MyButton } from './Button'
 
+const descriptionText =
+  `Systems Engineering student, focused 
+  on Backend development. I possess strong social 
+  skills, including initiative and proactivity, 
+  along with a genuine passion for both work and continuous 
+  learning. I pride myself on my attention to detail and aesthetic 
+  sensibility, and always strive for excellence in every task.`
+
 
 function MainCover() {
   return (
-    <section className='relative p-[8%] bg-white w-[100%] h-[40%] shadow-md'>
+    <section className='relative p-[8%] bg-white w-[100%] h-[30%] shadow-md'>
       <div className='w-[60%]'>
         <div className='text-title pb-[4%]'>
           <h1 >I&apos;m Laura Tascon</h1>
           <h2><span className='text-purple-300'>Full-Stack</span> Developer</h2>
         </div>
-        <p className='text-secondary'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, culpa voluptates quod eaque, suscipit deserunt inventore et commodi fugiat facilis, minus molestias
-          blanditiis nisi expedita. Animi enim quis et nisi.
+        <p className='text-secondary'>
+          {descriptionText}
         </p>
         <MyButton />
       </div>

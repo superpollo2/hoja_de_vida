@@ -15,7 +15,11 @@
 }
 
 .text-secondary {
-  @apply text-base font-normal  capitalize text-silver font-inter;
+  @apply text-base font-normal  text-silver font-inter;
+}
+
+.text-secondary-bold {
+  @apply text-base font-bold  text-silver font-inter;
 }
 
 .text-primary {
@@ -40,7 +44,7 @@
     clip-path: inset(100% 100% 100% 100%);
   }
   to {
-    clip-path: inset(10% 20% 50% 20%);
+    clip-path: inset(5% 18% 45% 26%);
   }
 }
 
@@ -50,7 +54,7 @@
 }
 
 .custom-dialog .MuiDialog-paper {
-  @apply  h-fit top-[18%] absolute rounded-xl;
+  @apply  h-fit top-[15%] left-[35%] absolute rounded-xl;
 
 }
 

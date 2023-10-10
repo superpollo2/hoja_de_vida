@@ -1,16 +1,18 @@
 interface EducationCardProps {
   institute: string;
+  title: string;
   date: string;
   information: string;
 }
 
 function EducactionCard ({
   institute,
+  title,
   date,
   information,
 }: EducationCardProps)  {
   return (
-    <article className="flex space-x-[10%] w-full pb-4 pt-11 px-10 bg-white">
+    <article className="flex space-x-[20%] w-full pb-4 pt-11 px-10 bg-white">
       <div>
         <h3 className="text-primary">{institute}</h3>
         <div className="flex items-center py-6">
@@ -20,8 +22,8 @@ function EducactionCard ({
           </span>
         </div>
       </div>
-      <div className="w-[60%]">
-        <h3 className="text-primary">Certificate of web training</h3>
+      <div className="w-[50%]">
+        <h3 className="text-primary">{title}</h3>
         <p className="py-6 text-left ">{information}</p>
       </div>
     </article>
