@@ -5,12 +5,12 @@ interface EducationCardProps {
   information: string;
 }
 
-function EducactionCard ({
+function EducactionCard({
   institute,
   title,
   date,
   information,
-}: EducationCardProps)  {
+}: EducationCardProps) {
   return (
     <article className="flex space-x-[20%] w-full pb-4 pt-11 px-10 bg-white">
       <div>

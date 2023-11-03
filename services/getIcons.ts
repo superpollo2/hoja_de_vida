@@ -1,5 +1,5 @@
 export const getIcons = () => (
-      [
+    [
         {
             id: 1,
             iconName: 'Github',

@@ -11,7 +11,7 @@ const dialogText = `
     ☁️ Learn about cloud 
     📉Learn about Data Science 
     🌈Be happy 🌟`;
-                    
+
 function MyButton() {
     const [open, setOpen] = useState(false);
 
@@ -30,7 +30,7 @@ function MyButton() {
                 onClick={handleClickOpen}>
                 Hire me <AiOutlineArrowRight style={{ marginLeft: '10px' }} />
             </button>
-            <CustomDialog title='My objectives' description={dialogText} open={open} handleClose={handleClose}  />
+            <CustomDialog title='My objectives' description={dialogText} open={open} handleClose={handleClose} />
         </div>
 
 

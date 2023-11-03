@@ -28,4 +28,4 @@ function PersonalInformation() {
     )
 }
 
-export { PersonalInformation}
+export { PersonalInformation }

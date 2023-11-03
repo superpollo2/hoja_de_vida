@@ -15,7 +15,7 @@ interface custromDialogProps {
 
 }
 
-function CustomDialog({title, description,open, handleClose }: custromDialogProps) {
+function CustomDialog({ title, description, open, handleClose }: custromDialogProps) {
 
     return (
         <Dialog open={open} onClose={handleClose} className='custom-dialog  ' >

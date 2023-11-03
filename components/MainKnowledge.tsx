@@ -19,14 +19,14 @@ const knowledge = getKnowledges();
 function MainKnowledge() {
     return (
         <section >
-            <SectionInformation title="Knowledge" text={knowledgeText} />         
+            <SectionInformation title="Knowledge" text={knowledgeText} />
             <div className="grid grid-cols-3 gap-5 ">
-                
+
                 {
                     knowledge.map((knowledge) => (
                         <KnowledgeCard key={knowledge.id} icon={knowledge.icon} knowledge={knowledge.knowledge} description={knowledge.description} alt={knowledge.alt} />
                     ))
-                    
+
                 }
             </div>
 

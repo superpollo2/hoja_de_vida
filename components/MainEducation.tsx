@@ -5,11 +5,11 @@ import { SectionInformation } from "./SectionInformation";
 import { getEducations } from "@/services/getEducations";
 import { SeparatorLine } from "./SeparatorLine";
 
-const educationText = 
+const educationText =
     `Passionate and dedicated graduate with a strong academic background
     and diverse skillset. Eager learner committed to continuous personal 
     and professional development.`
-    
+
 const educations = getEducations();
 
 function MainEducations() {

@@ -3,7 +3,7 @@ import { BarList } from './BarList';
 import { getExtraSkills } from '@/services/getExtraSkills';
 import { getPercentProgramming } from '@/services/getPercentProgramming';
 import { getPercentLenguage } from '@/services/getPercentageLenguage';
-import { SeparatorLine }  from './SeparatorLine';
+import { SeparatorLine } from './SeparatorLine';
 import { ExtraSkills } from './extraskills'
 
 function Skills() {
@@ -29,4 +29,4 @@ function Skills() {
     )
 }
 
-export { Skills}
+export { Skills }

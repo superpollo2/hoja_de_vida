@@ -19,7 +19,7 @@ function IconSocialMedia({ iconName, link, relIcon }: socialMediaProps) {
             {IconComponent && (
                 <div className='flex flex-center mt-[35%] shadow-lg rounded-full justify-center w-[55px] h-[60%] p-[20%] button'>
                     <a href={link} target="_blank" rel={relIcon} className='text-[2rem]'>
-                        <IconComponent  />
+                        <IconComponent />
                     </a>
                 </div>
 

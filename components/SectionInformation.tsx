@@ -1,13 +1,13 @@
 interface sectionInformationProps {
     title: string,
     text: string,
-    
+
 }
 
 
 
-function SectionInformation({ title, text}: sectionInformationProps) {
-    
+function SectionInformation({ title, text }: sectionInformationProps) {
+
     return (
         <section>
             <div className="flex flex-col items-center">
