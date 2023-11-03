@@ -1,5 +1,5 @@
 Hello, my name is Laura, a systems engineer in training and this is my curriculum.  
-🎆🎊🎉 First, it's good that you are here!!! 
+🎆🎊🎉 First, it's good that you are here!!!!
 
 🖥💻This project is created in Next.js using TypeScript and Tailwind
 
